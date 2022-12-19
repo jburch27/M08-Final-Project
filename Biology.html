@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="biology.css" rel="stylesheet">
+<title>Subject: Software</title>
+</head>
+<body>
+  
+<h1>Credits</h1>
+<p font-size:20px>3</p>
+
+<h2>Course</h2>
+<p>Environmental science</p>
+<div class="header">
+<h2>Description</h2>
+<p>This major is designed to provide students with a foundation in population, whole organism, evolutionary biology and environmental science as well as in chemistry and mathematics.</p>
+<h3>Schedule a time</h3>
+
+<form name="formid">
+    <select name="ddlselect" onchange="myFunction()">
+    <option value="1/19/22-3/11/22_Location:1:30pm-3:30pm Virtual">1/19/22-3/11/22_Location:1:00pm-3:45pm Virtual</option>
+    <option value="1/20/22-5/12/22_Location:3:30pm-5:30pm Virtual">1/20/22-5/12/22_Location:2:30pm-4:00pm Virtual</option>
+    </select>
+    </form>
+    <label id="schedule"></label>
+    <script>
+    function myFunction() {
+    document.getElementById('schedule').innerHTML=
+    ("You are scheduled for :<b style='color:purple;'>" +
+     formid.ddlselect[formid.ddlselect.selectedIndex].text+'</b>') }
+    </script>
+    <button onclick="history.back()">Go Back</button>
+</div>
+
+</body>
+</html>
+      
+   
+
+    

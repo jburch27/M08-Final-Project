@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="chemistry.css" rel="stylesheet">
+<title>Subject: Software</title>
+</head>
+<body>
+
+<h1>Credits</h1>
+<p font-size:20px>3</p>
+
+<h2>Course</h2>
+<p>Chemistry</p>
+
+<div class="header">
+<h2>Description</h2>
+<p>Introduction to Chemistry is intended for students with little to no prior knowledge of chemistry.  It provides students with foundational knowledge for additional chemistry classes required in health sciences education.</p>
+<h3>Schedule a time</h3>
+    <form name="formid">
+        <select name="ddlselect" onchange="myFunction()">
+        <option value="1/19/22-3/11/22_Location:2:00pm-4:45pm Virtual">1/19/22-3/11/22_Location:1:00pm-3:45pm Virtual</option>
+        <option value="1/20/22-5/12/22_Location:3:30pm-5:30pm Virtual">1/20/22-5/12/22_Location:2:30pm-4:00pm Virtual</option>
+        </select>
+        </form>
+        <label id="schedule"></label>
+        <script>
+        function myFunction() {
+        document.getElementById('schedule').innerHTML=
+        ("You are scheduled for :<b style='color:purple;'>" +
+         formid.ddlselect[formid.ddlselect.selectedIndex].text+'</b>') }
+        </script>
+        <button onclick="history.back()">Go Back</button>
+</div>
+</body>
+</html>
+      
+   
+
+    

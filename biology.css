@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body, header {
+    background-color: #2a177c;
+  }
+  header, img {
+    display: grid;
+  }
+h1 {
+    text-align: center;
+    color: rgb(30, 46, 85);
+    font-size: xx-large;
+}
+
+  h2 {
+  text-align: center;
+  color: rgb(0, 34, 95);
+  font-size: x-large;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+  text-align: center;
+  color: rgb(38, 29, 170);
+  font-size: xx-large;
+}
+
+
+div {
+  text-align: center;
+}
+
+
+body {
+  background-image: url('environmental.JPEG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+.header {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }

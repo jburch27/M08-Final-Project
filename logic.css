@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body, header {
+    background-color: #e7f7f9;
+  }
+  header, img {
+    display: grid;
+  }
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: xx-large;
+}
+
+  h2 {
+  text-align: center;
+  color: yellow;
+  font-size: xx-large;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+  text-align: center;
+  color: yellow;
+  font-size: xx-large;
+}
+
+
+div {
+  text-align: center;
+}
+
+
+body {
+  background-image: url('logic.JPEG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+
+.header {
+    background-color: #0e9067;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }

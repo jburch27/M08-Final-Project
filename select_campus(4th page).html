@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<script>
+  function Validate(){
+    if(!validateForm()){
+        alert("You must check atleast one of the checkboxes");
+        return false;
+    }
+ return true
+ }
+ function validateForm()
+ {
+     var c=document.getElementsByTagName('input');
+     for (var i = 0; i<c.length; i++){
+         if (c[i].type=='checkbox')
+         {
+             if (c[i].checked){return true}
+         }
+     }
+     return false;
+ }
+
+
+
+</script>
+
+
+
+
+    <style>
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+body {
+  background-image: url('campus.JPEG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
+
+</style>
+
+
+    
+<h1>Select Campus</h1>
+
+<form name="myForm" action="studentlogin(5thpage).html" onsubmit="return Validate()" method="post">
+  <input type="checkbox" name="option1" value="This">
+  <label >Online Only Classes (IvyOnline)</label><br>
+  <input type="checkbox" name="option2" value="This">
+  <label> Indianapolis/Lawrence/Plainfield</label><br>
+  <input type="checkbox" name="MyCheckbox" value="This">
+  <label>Lafayette </label><br><br>
+  <input type="submit" value="Submit Form">
+  </form>
+
+
+
+
+
+
+
+    
+
+
+</body>
+
+</html>

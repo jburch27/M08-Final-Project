@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="logic.css" rel="stylesheet">
+<title>Subject: Software</title>
+</head>
+<body>
+
+<h1>Credits</h1>
+<p font-size:20px>3</p>
+
+<h2>Course</h2>
+<p>Computing logic</p>
+
+<div class="header">
+<h2>Description</h2>
+<p>Identify the standard documentation tools of displaying algorithms such as pseudocode, flowchart symbols and UML.
+    Describe the basic logical structures, file handling, matrices, and arrays to program algorithms.
+    Apply truth tables, Boolean logic, control structures, logical and relational operators to program algorithms.
+    Use set theory and logic gate theory to develop program algorithms.
+    Use puzzles and games to enhance problem-solving skills.
+    Compare key techniques to visually represent data such as graphs, charts and tables.
+    Express algorithms using tools such as data flow diagrams, flowcharts, use case diagrams, activity diagrams, and state tables.
+    Apply critical thinking and problem solving methodologies.
+    Apply base numbering systems techniques to convert numeric data to any base numbering format, including binary, decimal and hexadecimal.
+    Identify the uses of various programming and scripting languages in computer systems.</p>
+<h3>Schedule a time</h3>
+<form name="formid">
+    <select name="ddlselect" onchange="myFunction()">
+    <option value="1/19/22-3/11/22_Location:1:30pm-3:30pm Virtual">1/19/22-3/11/22_Location:1:00pm-3:45pm Virtual</option>
+    <option value="1/20/22-5/12/22_Location:3:30pm-5:30pm Virtual">1/20/22-5/12/22_Location:2:30pm-4:00pm Virtual</option>
+    </select>
+    </form>
+    <label id="schedule"></label>
+    <script>
+    function myFunction() {
+    document.getElementById('schedule').innerHTML=
+    ("You are scheduled for :<b style='color:purple;'>" +
+     formid.ddlselect[formid.ddlselect.selectedIndex].text+'</b>') }
+    </script>
+
+<button onclick="history.back()">Go Back</button>
+</div>
+
+
+
+
+
+</body>
+</html>
+      
+   
+
+    
